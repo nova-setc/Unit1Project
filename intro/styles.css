@@ -1,0 +1,96 @@
+body {
+  background-color: #474f7a;
+  text-align: center;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header img {
+  text-align: left;
+  width: 10%;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  box-shadow: 0 0 30px #1f2544 inset;
+}
+
+div, img, .title {
+  border-radius: 25px;
+}
+
+h1, p {
+  font-family: "SUSE", sans-serif;
+}
+
+.threepic, .onepic {
+  background-color: #81689D;
+  margin: 5% 20%;
+  box-shadow: 0 0 30px #1f2544 inset;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.title {
+  background-color: #1f2544;
+  color: #ffd0ec;
+  width: fit-content;
+  padding: 30px 60px;
+  font-size: 2.5em;
+  box-shadow: 0 0 20px #1f2544;
+  text-shadow: 2px 2px 2px #81689D;
+}
+
+.question {
+  color: #ffd0ec;
+  width: fit-content;
+  padding: 10px 20px;
+  text-shadow: 3px 3px 3px #1f2544;
+}
+
+.onepic {
+  padding: 5px 0 40px;
+}
+
+.onepic div {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4% 4% 1%;
+}
+
+.onepic img {
+  width: 100%;
+}
+
+div div {
+  background-color: #ffd0ec;
+  color: #1f2544;
+  width: fit-content;
+  font-size: 1.5em; 
+  box-shadow: 0 0 20px #1f2544;
+}
+
+.threepic {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5px 0 15px;
+}
+
+.threepic div{
+  width: 30%;
+  display: inline-block;
+  padding-top: 3%;
+  margin: 1%;
+}
+
+.threepic img {
+  width: 80%;
+}
+
+.description {
+  font-size: 0.8em;
+  font-weight: 400;
+}
